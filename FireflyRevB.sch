@@ -6157,9 +6157,35 @@ grid 2.5 mm, outline 3 x 5 mm</description>
 <sheets>
 <sheet>
 <plain>
-<text x="-15.24" y="96.52" size="2.54" layer="91">Nick Bluhm</text>
-<text x="-15.24" y="73.66" size="1.9304" layer="91">Creative Commons License</text>
-<text x="-15.24" y="68.58" size="1.9304" layer="91">Attribution-ShareAlike 4.0 International</text>
+<text x="-7.62" y="76.2" size="2.54" layer="91">Nick Bluhm</text>
+<text x="-7.62" y="53.34" size="1.9304" layer="91">Creative Commons License</text>
+<text x="-7.62" y="48.26" size="1.9304" layer="91">Attribution-ShareAlike 4.0 International</text>
+<wire x1="0" y1="147.32" x2="109.22" y2="147.32" width="0.1524" layer="90" style="shortdash"/>
+<wire x1="109.22" y1="147.32" x2="109.22" y2="124.46" width="0.1524" layer="90" style="shortdash"/>
+<wire x1="109.22" y1="124.46" x2="78.74" y2="124.46" width="0.1524" layer="90" style="shortdash"/>
+<wire x1="78.74" y1="124.46" x2="78.74" y2="111.76" width="0.1524" layer="90" style="shortdash"/>
+<wire x1="78.74" y1="111.76" x2="0" y2="111.76" width="0.1524" layer="90" style="shortdash"/>
+<wire x1="0" y1="111.76" x2="0" y2="147.32" width="0.1524" layer="90" style="shortdash"/>
+<wire x1="40.64" y1="93.98" x2="86.36" y2="93.98" width="0.1524" layer="90" style="shortdash"/>
+<wire x1="86.36" y1="93.98" x2="86.36" y2="40.64" width="0.1524" layer="90" style="shortdash"/>
+<wire x1="86.36" y1="40.64" x2="40.64" y2="40.64" width="0.1524" layer="90" style="shortdash"/>
+<wire x1="40.64" y1="40.64" x2="40.64" y2="93.98" width="0.1524" layer="90" style="shortdash"/>
+<wire x1="88.9" y1="121.92" x2="129.54" y2="121.92" width="0.1524" layer="90" style="shortdash"/>
+<wire x1="129.54" y1="121.92" x2="129.54" y2="58.42" width="0.1524" layer="90" style="shortdash"/>
+<wire x1="129.54" y1="58.42" x2="88.9" y2="58.42" width="0.1524" layer="90" style="shortdash"/>
+<wire x1="88.9" y1="58.42" x2="88.9" y2="121.92" width="0.1524" layer="90" style="shortdash"/>
+<wire x1="132.08" y1="109.22" x2="241.3" y2="109.22" width="0.1524" layer="90" style="shortdash"/>
+<wire x1="241.3" y1="109.22" x2="241.3" y2="86.36" width="0.1524" layer="90" style="shortdash"/>
+<wire x1="241.3" y1="86.36" x2="132.08" y2="86.36" width="0.1524" layer="90" style="shortdash"/>
+<wire x1="132.08" y1="86.36" x2="132.08" y2="109.22" width="0.1524" layer="90" style="shortdash"/>
+<wire x1="-12.7" y1="149.86" x2="-12.7" y2="35.56" width="1.27" layer="90" style="shortdash"/>
+<wire x1="-12.7" y1="35.56" x2="248.92" y2="35.56" width="1.27" layer="90" style="shortdash"/>
+<wire x1="248.92" y1="35.56" x2="248.92" y2="149.86" width="1.27" layer="90" style="shortdash"/>
+<wire x1="248.92" y1="149.86" x2="-12.7" y2="149.86" width="1.27" layer="90" style="shortdash"/>
+<text x="2.54" y="114.3" size="2.54" layer="90">Power Supply</text>
+<text x="58.42" y="88.9" size="2.54" layer="90">Voltage Divider</text>
+<text x="90.17" y="61.468" size="2.54" layer="90">Square Wave Generator</text>
+<text x="172.72" y="105.156" size="2.54" layer="90">LED Pattern</text>
 </plain>
 <instances>
 <instance part="BATTERY" gate="G$1" x="15.24" y="134.62"/>
@@ -6171,12 +6197,12 @@ grid 2.5 mm, outline 3 x 5 mm</description>
 <instance part="GND1" gate="1" x="104.14" y="134.62" rot="R90"/>
 <instance part="GND2" gate="1" x="5.08" y="134.62" rot="R270"/>
 <instance part="R2" gate="G$1" x="50.8" y="60.96" rot="R90"/>
-<instance part="R3" gate="G$1" x="101.6" y="78.74" rot="R90"/>
+<instance part="R3" gate="G$1" x="101.6" y="73.66" rot="R90"/>
 <instance part="GND3" gate="1" x="50.8" y="45.72"/>
-<instance part="C2" gate="G$1" x="83.82" y="104.14" rot="R180"/>
+<instance part="C2" gate="G$1" x="96.52" y="88.9" rot="R180"/>
 <instance part="R4" gate="G$1" x="109.22" y="88.9"/>
-<instance part="R5" gate="G$1" x="109.22" y="119.38"/>
-<instance part="R6" gate="G$1" x="134.62" y="104.14"/>
+<instance part="R5" gate="G$1" x="109.22" y="116.84"/>
+<instance part="R6" gate="G$1" x="139.7" y="104.14"/>
 <instance part="GND4" gate="1" x="68.58" y="116.84"/>
 <instance part="SWITCH" gate="G$1" x="33.02" y="132.08"/>
 <instance part="GND5" gate="1" x="205.74" y="91.44"/>
@@ -6192,9 +6218,9 @@ grid 2.5 mm, outline 3 x 5 mm</description>
 <instance part="LED10" gate="G$1" x="220.98" y="99.06"/>
 <instance part="LED11" gate="G$1" x="228.6" y="99.06"/>
 <instance part="LED12" gate="G$1" x="236.22" y="99.06"/>
-<instance part="U$4" gate="G$1" x="-15.24" y="91.44"/>
-<instance part="U$5" gate="G$1" x="-15.24" y="83.82"/>
-<instance part="LOGO1" gate="G$1" x="5.08" y="86.36"/>
+<instance part="U$4" gate="G$1" x="-7.62" y="71.12"/>
+<instance part="U$5" gate="G$1" x="-7.62" y="63.5"/>
+<instance part="LOGO1" gate="G$1" x="12.7" y="66.04"/>
 </instances>
 <busses>
 </busses>
@@ -6269,7 +6295,7 @@ grid 2.5 mm, outline 3 x 5 mm</description>
 <wire x1="38.1" y1="137.16" x2="50.8" y2="137.16" width="0.1524" layer="91"/>
 <wire x1="50.8" y1="137.16" x2="50.8" y2="134.62" width="0.1524" layer="91"/>
 <junction x="50.8" y="134.62"/>
-<label x="55.88" y="139.7" size="1.778" layer="95"/>
+<label x="43.18" y="137.16" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$2" class="0">
@@ -6293,23 +6319,23 @@ grid 2.5 mm, outline 3 x 5 mm</description>
 <wire x1="83.82" y1="55.88" x2="83.82" y2="68.58" width="0.1524" layer="91"/>
 <wire x1="83.82" y1="68.58" x2="78.74" y2="68.58" width="0.1524" layer="91"/>
 <pinref part="C2" gate="G$1" pin="1"/>
-<wire x1="83.82" y1="99.06" x2="83.82" y2="73.66" width="0.1524" layer="91"/>
+<wire x1="96.52" y1="83.82" x2="96.52" y2="68.58" width="0.1524" layer="91"/>
 <junction x="83.82" y="68.58"/>
 <pinref part="R3" gate="G$1" pin="1"/>
-<wire x1="83.82" y1="73.66" x2="83.82" y2="68.58" width="0.1524" layer="91"/>
-<wire x1="101.6" y1="73.66" x2="83.82" y2="73.66" width="0.1524" layer="91"/>
-<junction x="83.82" y="73.66"/>
+<wire x1="96.52" y1="68.58" x2="83.82" y2="68.58" width="0.1524" layer="91"/>
+<wire x1="101.6" y1="68.58" x2="96.52" y2="68.58" width="0.1524" layer="91"/>
+<junction x="96.52" y="68.58"/>
 </segment>
 </net>
 <net name="N$5" class="0">
 <segment>
 <pinref part="C2" gate="G$1" pin="2"/>
-<wire x1="83.82" y1="106.68" x2="96.52" y2="106.68" width="0.1524" layer="91"/>
+<wire x1="96.52" y1="91.44" x2="96.52" y2="106.68" width="0.1524" layer="91"/>
 <pinref part="IC1" gate="G2" pin="-IN"/>
 <pinref part="R5" gate="G$1" pin="1"/>
 <wire x1="96.52" y1="106.68" x2="101.6" y2="106.68" width="0.1524" layer="91"/>
-<wire x1="104.14" y1="119.38" x2="96.52" y2="119.38" width="0.1524" layer="91"/>
-<wire x1="96.52" y1="119.38" x2="96.52" y2="106.68" width="0.1524" layer="91"/>
+<wire x1="104.14" y1="116.84" x2="96.52" y2="116.84" width="0.1524" layer="91"/>
+<wire x1="96.52" y1="116.84" x2="96.52" y2="106.68" width="0.1524" layer="91"/>
 <junction x="96.52" y="106.68"/>
 </segment>
 </net>
@@ -6319,7 +6345,7 @@ grid 2.5 mm, outline 3 x 5 mm</description>
 <pinref part="R4" gate="G$1" pin="1"/>
 <wire x1="101.6" y1="101.6" x2="101.6" y2="88.9" width="0.1524" layer="91"/>
 <wire x1="101.6" y1="88.9" x2="104.14" y2="88.9" width="0.1524" layer="91"/>
-<wire x1="101.6" y1="88.9" x2="101.6" y2="83.82" width="0.1524" layer="91"/>
+<wire x1="101.6" y1="88.9" x2="101.6" y2="78.74" width="0.1524" layer="91"/>
 <junction x="101.6" y="88.9"/>
 <pinref part="R3" gate="G$1" pin="2"/>
 </segment>
@@ -6333,9 +6359,9 @@ grid 2.5 mm, outline 3 x 5 mm</description>
 <wire x1="116.84" y1="104.14" x2="121.92" y2="104.14" width="0.1524" layer="91"/>
 <junction x="116.84" y="104.14"/>
 <pinref part="R5" gate="G$1" pin="2"/>
-<wire x1="121.92" y1="104.14" x2="129.54" y2="104.14" width="0.1524" layer="91"/>
-<wire x1="114.3" y1="119.38" x2="121.92" y2="119.38" width="0.1524" layer="91"/>
-<wire x1="121.92" y1="119.38" x2="121.92" y2="104.14" width="0.1524" layer="91"/>
+<wire x1="121.92" y1="104.14" x2="134.62" y2="104.14" width="0.1524" layer="91"/>
+<wire x1="114.3" y1="116.84" x2="121.92" y2="116.84" width="0.1524" layer="91"/>
+<wire x1="121.92" y1="116.84" x2="121.92" y2="104.14" width="0.1524" layer="91"/>
 <junction x="121.92" y="104.14"/>
 <pinref part="R6" gate="G$1" pin="1"/>
 </segment>
@@ -6362,7 +6388,7 @@ grid 2.5 mm, outline 3 x 5 mm</description>
 <wire x1="213.36" y1="101.6" x2="220.98" y2="101.6" width="0.1524" layer="91"/>
 <wire x1="220.98" y1="101.6" x2="228.6" y2="101.6" width="0.1524" layer="91"/>
 <wire x1="228.6" y1="101.6" x2="236.22" y2="101.6" width="0.1524" layer="91"/>
-<wire x1="139.7" y1="104.14" x2="154.94" y2="104.14" width="0.1524" layer="91"/>
+<wire x1="144.78" y1="104.14" x2="154.94" y2="104.14" width="0.1524" layer="91"/>
 <wire x1="154.94" y1="104.14" x2="154.94" y2="101.6" width="0.1524" layer="91"/>
 <junction x="154.94" y="101.6"/>
 <pinref part="LED1" gate="G$1" pin="A"/>
