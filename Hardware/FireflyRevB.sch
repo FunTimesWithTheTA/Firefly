@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.1.2">
+<eagle version="9.0.1">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -6501,12 +6501,12 @@ Diode with low voltage drop</description>
 <part name="BATTERY" library="SparkFun-Batteries" deviceset="BATTERY" device="-20MM_SMD"/>
 <part name="IC1" library="SparkFun-IC-Amplifiers" deviceset="OPAMP-DUAL" device="U" value="OP-AMP"/>
 <part name="R1" library="CalvEngIO-Passives" deviceset="RESISTOR" device="0603" value="10k"/>
-<part name="C1" library="CalvEngIO-Passives" deviceset="CAPACITOR" device="0402" value="100n"/>
+<part name="C1" library="CalvEngIO-Passives" deviceset="CAPACITOR" device="0603" value="100n"/>
 <part name="GND1" library="CalvEngIO-Symbols" deviceset="GND" device=""/>
 <part name="R2" library="CalvEngIO-Passives" deviceset="RESISTOR" device="0603" value="10k"/>
 <part name="R3" library="CalvEngIO-Passives" deviceset="RESISTOR" device="0603" value="10k"/>
 <part name="GND3" library="CalvEngIO-Symbols" deviceset="GND" device=""/>
-<part name="C2" library="CalvEngIO-Passives" deviceset="CAPACITOR" device="0402" value="100n"/>
+<part name="C2" library="CalvEngIO-Passives" deviceset="CAPACITOR" device="0603" value="100n"/>
 <part name="R4" library="CalvEngIO-Passives" deviceset="RESISTOR" device="0603" value="10k"/>
 <part name="R5" library="CalvEngIO-Passives" deviceset="RESISTOR" device="0603" value="3.3M"/>
 <part name="R6" library="CalvEngIO-Passives" deviceset="RESISTOR" device="0603" value="300"/>
@@ -6528,7 +6528,7 @@ Diode with low voltage drop</description>
 <part name="U$4" library="CalvEngIO-Symbols" deviceset="REVISION.A" device=""/>
 <part name="U$5" library="CalvEngIO-Logos" deviceset="LINNES.LAB.LOGO" device=""/>
 <part name="LOGO1" library="CalvEngIO-Logos" deviceset="OSHW-LOGO" device="L-COPPER"/>
-<part name="U$1" library="CalvEngIO-Connectors" deviceset="USB.MICRO.PWR" device="-BIGGERPADS"/>
+<part name="USB" library="CalvEngIO-Connectors" deviceset="USB.MICRO.PWR" device="-BIGGERPADS"/>
 <part name="D1" library="CalvEngIO-DiscreteSemi" deviceset="SCHOTTKY" device="-USC"/>
 <part name="D2" library="CalvEngIO-DiscreteSemi" deviceset="SCHOTTKY" device="-USC"/>
 <part name="GND2" library="CalvEngIO-Symbols" deviceset="GND" device=""/>
@@ -6574,7 +6574,7 @@ Diode with low voltage drop</description>
 <instance part="IC1" gate="G3" x="68.58" y="127"/>
 <instance part="R1" gate="G$1" x="50.8" y="86.36" rot="R90"/>
 <instance part="C1" gate="G$1" x="83.82" y="134.62" rot="R90"/>
-<instance part="GND1" gate="1" x="104.14" y="134.62" rot="R90"/>
+<instance part="GND1" gate="1" x="104.14" y="132.08"/>
 <instance part="R2" gate="G$1" x="50.8" y="60.96" rot="R90"/>
 <instance part="R3" gate="G$1" x="101.6" y="73.66" rot="R90"/>
 <instance part="GND3" gate="1" x="50.8" y="45.72"/>
@@ -6600,7 +6600,7 @@ Diode with low voltage drop</description>
 <instance part="U$4" gate="G$1" x="-7.62" y="71.12"/>
 <instance part="U$5" gate="G$1" x="-7.62" y="63.5"/>
 <instance part="LOGO1" gate="G$1" x="12.7" y="66.04"/>
-<instance part="U$1" gate="G$1" x="5.08" y="101.6"/>
+<instance part="USB" gate="G$1" x="5.08" y="101.6"/>
 <instance part="D1" gate="G$1" x="20.32" y="134.62"/>
 <instance part="D2" gate="G$1" x="17.78" y="106.68"/>
 <instance part="GND2" gate="1" x="10.16" y="119.38"/>
@@ -6613,7 +6613,7 @@ Diode with low voltage drop</description>
 <segment>
 <pinref part="C1" gate="G$1" pin="2"/>
 <pinref part="GND1" gate="1" pin="GND"/>
-<wire x1="86.36" y1="134.62" x2="101.6" y2="134.62" width="0.1524" layer="91"/>
+<wire x1="86.36" y1="134.62" x2="104.14" y2="134.62" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="R2" gate="G$1" pin="1"/>
@@ -6665,7 +6665,7 @@ Diode with low voltage drop</description>
 <pinref part="GND2" gate="1" pin="GND"/>
 </segment>
 <segment>
-<pinref part="U$1" gate="G$1" pin="GND"/>
+<pinref part="USB" gate="G$1" pin="GND"/>
 <wire x1="12.7" y1="96.52" x2="15.24" y2="96.52" width="0.1524" layer="91"/>
 <pinref part="GND6" gate="1" pin="GND"/>
 <wire x1="15.24" y1="96.52" x2="15.24" y2="91.44" width="0.1524" layer="91"/>
@@ -6821,7 +6821,7 @@ Diode with low voltage drop</description>
 <net name="N$11" class="0">
 <segment>
 <pinref part="D2" gate="G$1" pin="A"/>
-<pinref part="U$1" gate="G$1" pin="V+"/>
+<pinref part="USB" gate="G$1" pin="V+"/>
 <wire x1="15.24" y1="106.68" x2="12.7" y2="106.68" width="0.1524" layer="91"/>
 </segment>
 </net>
