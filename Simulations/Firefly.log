@@ -1,0 +1,4 @@
+Circuit: * C:\Users\Nbluh\Documents\GitHub_AllRepositories\FunTimes\Firefly\Simulations\Firefly.asc
+
+Fatal Error: Unknown subcircuit called in:
+   xu1 n008 n009 n001 0 n009 opamp2
