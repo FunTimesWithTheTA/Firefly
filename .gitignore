@@ -8,7 +8,7 @@ Hardware/*
 !*.png
 !*.jpg
 !*.jpeg
-!*.Gerbers/
+!*.Gerbers/*.zip
 
 
 # Ignore Mac DS_Store files in all directories
